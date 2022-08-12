@@ -3,10 +3,10 @@ function formatName(user) {
 }
 
 const user = {
-  firstName: 'Harper',
-  lastName: 'Perez',
+  firstName: 'أحمد',
+  lastName: 'خالد',
 };
 
-const element = <h1>Hello, {formatName(user)}!</h1>;
+const element = <h1>مرحباً, {formatName(user)}!</h1>;
 
 ReactDOM.render(element, document.getElementById('root'));
